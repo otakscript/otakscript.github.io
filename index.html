@@ -18,11 +18,18 @@
   			top:50%;
 		}
 		.fb-like {
+			position:relative;
 			display:block;
 			padding:20px;
 			margin-left:130px !important;
 			border-radius:10px;
 			background-color:#cfd8dc;
+		}
+		.fb-like:before {
+			content:"";
+			position:absolute;
+			border-width:10px;
+			border-color:#cfd8dc transparent transparent #cfd8dc;
 		}
 	</style>
 </head>
